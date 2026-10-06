@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Tracker - Kanban Board</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="board-header">
+        <span class="subtitle">Round 2 • Web Development Task</span>
+        <h1>Project Tracker</h1>
+        <p class="description">A Kanban-style board for tracking projects through every stage</p>
+    </header>
+
+    <main class="kanban-board">
+        <!-- 1. BACKLOG COLUMN -->
+        <section class="kanban-column">
+            <h2 class="column-title backlog">Backlog</h2>
+            <div class="card-list">
+                
+                <!-- Sample Card 1 -->
+                <article class="project-card">
+                    <span class="tag personal">Personal</span>
+                    <h3 class="card-title">Redesign Portfolio Website</h3>
+                    <p class="card-desc">Update the layout using CSS Grid and clean up old project case studies.</p>
+                </article>
+
+                <!-- Add more Backlog cards here -->
+
+            </div>
+        </section>
+
+        <!-- 2. IN PROGRESS COLUMN -->
+        <section class="kanban-column">
+            <h2 class="column-title in-progress">In Progress</h2>
+            <div class="card-list">
+                
+                <!-- Sample Card 2 -->
+                <article class="project-card">
+                    <span class="tag college">College</span>
+                    <h3 class="card-title">Database Assignment 3</h3>
+                    <p class="card-desc">Write SQL queries for the library management schema and optimize indexes.</p>
+                </article>
+
+                <!-- Add more In Progress cards here -->
+
+            </div>
+        </section>
+
+        <!-- 3. REVIEW COLUMN -->
+        <section class="kanban-column">
+            <h2 class="column-title review">Review</h2>
+            <div class="card-list">
+                
+                <!-- Sample Card 3 -->
+                <article class="project-card">
+                    <span class="tag freelance">Freelance</span>
+                    <h3 class="card-title">E-commerce Landing Page</h3>
+                    <p class="card-desc">Review responsiveness on mobile devices and check typography spacing.</p>
+                </article>
+
+                <!-- Add more Review cards here -->
+
+            </div>
+        </section>
+
+        <!-- 4. COMPLETED COLUMN -->
+        <section class="kanban-column">
+            <h2 class="column-title completed">Completed</h2>
+            <div class="card-list">
+                
+                <!-- Sample Card 4 -->
+                <article class="project-card">
+                    <span class="tag personal">Personal</span>
+                    <h3 class="card-title">Setup Dev Environment</h3>
+                    <p class="card-desc">Install latest versions of VS Code, Git extensions, and configure global dotfiles.</p>
+                </article>
+
+                <!-- Add more Completed cards here -->
+
+            </div>
+        </section>
+    </main>
+
+</body>
+</html>
